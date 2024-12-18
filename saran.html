@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Saran</title>
+    <style>
+        body {
+        font-family: 'Times New Roman', Times;
+        margin: 0;
+        padding: 0;
+        background-color: #93f1f3;
+        color: #5100ff;
+        }
+        header {
+        background-color: #0c67bc;
+        color: rgb(175, 252, 31);
+        padding: 10px;
+        text-align: left;
+        }
+        form input, form textarea, form button {
+        width: 50%;
+        margin: 5px 0;
+        padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Form Saran Toko "Our Precious Cars"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="saran.html">Saran</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Kami ingin mendengar saran Anda!</h2>
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message"></label>
+                <textarea id="message" name="message" cols="30" rows="10" required>Tuliskan pesan dan kesan anda...</textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
